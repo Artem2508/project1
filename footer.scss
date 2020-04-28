@@ -1,0 +1,72 @@
+footer{
+    background-color: rgb(101, 101, 253);
+    height: 450px;
+    text-align: center;
+   
+}
+
+h3{
+    text-align: center;
+    padding-left: 20px;
+}
+.xob{
+    display: flex;
+  justify-content: center;
+ 
+}
+.box{
+    float: left;
+    margin-right: 100px;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+ul{
+    line-height: 0.9cm;
+    list-style: none;
+}
+.logo1{
+    object-fit: contain;
+    width: 200px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-right: 4cm;
+    padding-bottom: 10px;
+}
+
+.footer2{
+    color: white;
+    display:flex;
+    
+}
+.soc{
+    padding-right: 5cm;
+    padding-top: 1cm;
+    padding-bottom: 10px;
+}
+.icon1 {
+    font-family: 'itacademy-icons';
+    font-style: normal;
+    color: inherit;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+}
+
+.copy1{
+    float: left;
+    color: white;
+    padding-top: 50px;
+    margin-left: 5cm;
+}
+.copy2{
+   float: right;
+   color: white;
+   padding-top: 50px;
+   margin-right: 5cm;
+}
+.copy{
+    border-top: solid 2px rgb(82, 80, 255);
+}

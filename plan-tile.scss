@@ -1,0 +1,91 @@
+.section1{
+  background-color:whitesmoke;
+  padding-bottom: 10%;
+  &__list{
+  display: flex;
+  justify-content: center;
+ 
+  }
+}
+
+.pad{
+  padding-top: 30px;
+}
+.cenik h1{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  
+}
+.cenik p{
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.zl {
+text-align: center;
+text-decoration: overline;
+color: blue;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.plan-title1{
+  float: left;
+  text-align: center;
+  margin-top: 30px;
+  padding: 25px;
+  height: 450px;
+  background-color: white;
+  width: 20%;
+  border-radius: 10px;
+  
+}
+.plan-title2{
+  float: left;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+  height: 500px;
+  background-color: rgb(93, 93, 255);
+  color: white;
+  width: 20%;
+  border-radius: 10px;
+  margin-top: 0;
+}
+.plan-title3{
+  float: left;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+  height: 450px;
+  background-color: rgb(0, 0, 58);
+  color: white;
+  width: 20%;
+  border-radius: 10px;
+  
+}
+.cena {
+  line-height: 0.9cm;
+  list-style: none;
+  padding: 0;
+  &__icon{
+    padding-right: 10px;
+  }
+}
+
+
+/*
+  try to recreate a plan tile from desing (Cennik section)
+  Create only styles for middle tile, and apply it to all 3 tiles.
+
+  you can use any icon for the list and the button
+
+  remember that list should be kept in <ul> and <li> tags
+
+  if You will not have an idea how to create line between list and price
+  then simply ignore that
+
+  You do not have to measure sizes from the design,
+  try to recreate it but You don't have to be pixel perfect.
+  */

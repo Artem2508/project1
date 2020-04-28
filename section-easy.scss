@@ -1,0 +1,77 @@
+.easy{
+    
+}
+.boxses1{
+    width: 50%;
+    height: 800px;
+    background-image: url(../assets/visualisation3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    margin-top: 200px;
+    float: left;
+}
+
+.boxses2{
+    width: 50%;
+    height: 800px;
+    float: left;
+
+    &__text{
+        text-align: center;
+        margin-top: 250px;
+        margin-left: -250px;
+        
+    }
+
+    &__text2{
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    &__text3{
+        margin-left: 100px;
+        margin-bottom: 30px;
+        margin-right: 200px;
+    }
+
+    &__list1{
+        float: left;
+        width: 30%;
+        margin-left: 60px;
+    }
+
+    &__list2{
+        float: right;
+        width: 30%;
+        margin-right: 110px;
+    }
+
+    &__icon1{
+        font-size: 26px;
+    width: 26px;
+    height: 26px;
+    }
+    &__icon2{
+        font-size: 26px;
+    width: 26px;
+    height: 26px;
+    }
+
+    &__button{
+    height: 30px;
+    margin: 0;
+    border: 0;
+    padding: 0 18px;
+    font-size: 16px;
+    border-radius: 1px;
+    box-shadow: 0 2px 2px 0 $grey-shadow;
+    flex-shrink: 0;
+    margin-left: 100px;
+    }
+    &__icon3{
+        margin-left: 10px;
+    }
+}
+
+   
